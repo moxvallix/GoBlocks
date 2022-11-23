@@ -1,0 +1,2 @@
+data modify storage tui:page title set value "Player Event"
+data modify storage tui:page template set value [{text:'{"text":"Select a category:","color":"aqua"}',bullet:false},{slot:0b,page:1001s,text:'{"text":"Game Events","color":"yellow"}'},{slot:1b,page:1002s,text:'{"text":"Damage Events","color":"yellow"}'},{slot:2b,page:1003s,text:'{"text":"Movement Events","color":"yellow"}'},{slot:3b,page:1004s,text:'{"text":"Item Events","color":"yellow"}'}]

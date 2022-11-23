@@ -1,0 +1,9 @@
+execute if data storage tui:slot {current:{GoBlocks:{action:"takes_damage"}}} run scoreboard players set @s gb.chatgui 3
+execute if data storage tui:slot {current:{GoBlocks:{action:"on_sneak"}}} run scoreboard players set @s gb.chatgui 20
+execute if data storage tui:slot {current:{GoBlocks:{action:"dies"}}} run scoreboard players set @s gb.chatgui 21
+execute if data storage tui:slot {current:{GoBlocks:{action:"player_drops_item"}}} run scoreboard players set @s gb.chatgui 23
+execute if data storage tui:slot {current:{GoBlocks:{action:"give_item_to_player"}}} run scoreboard players set @s gb.chatgui 24
+execute if data storage tui:slot {current:{GoBlocks:{action:"player_consumes_item"}}} run scoreboard players set @s gb.chatgui 25
+execute if data storage tui:slot {current:{GoBlocks:{action:"on_first_join"}}} run scoreboard players set @s gb.chatgui 27
+execute if data storage tui:slot {current:{GoBlocks:{action:"tick"}}} run scoreboard players set @s gb.chatgui 28
+execute if data storage tui:slot {current:{GoBlocks:{action:"on_jump"}}} run scoreboard players set @s gb.chatgui 38

@@ -1,0 +1,1 @@
+execute if data storage tui:slot current.GoBlocks.block run function gb:zpriv/tui/select/blocks

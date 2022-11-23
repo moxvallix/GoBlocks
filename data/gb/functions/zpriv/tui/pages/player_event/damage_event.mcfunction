@@ -1,0 +1,3 @@
+data modify storage tui:page title set value "Player Event"
+data modify storage tui:page navigation.previous set value 1000s
+data modify storage tui:page template set value [{text:'{"text":"Select an event:"}',bullet:false},{slot:0b,text:'{"text":"Takes Damage","color":"yellow"}',GoBlocks:{block:"player_event",action:"takes_damage"}},{slot:1b,text:'{"text":"Dies","color":"yellow"}',GoBlocks:{block:"player_event",action:"dies"}}]
